@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comforty</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/6004dd6d46.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-------------------
+        Bar Section
+    -------------------->
+    <section>
+        <!-- top bar -->
+        <div class="flex justify-between bg-[#272343] text-white  text-xs lg:text-base lg:p-2">
+            <div class="">
+                <p class="flex gap-1"><img src="images/check 1.svg" alt="">Free shipping on all orders over $50</p>
+            </div>
+            <div>
+                <ul class="flex gap-1">
+                    <li class="flex gap-1"><a href="#">Eng </a> <img class="w-3" src="images/down.svg" alt=""></li>
+                    <li><a href="#">Faqs</a></li>
+                    <li class="flex gap-1"><img src="images/alert-circle 1.svg" alt=""><a href="#">Need Help</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- middle bar -->
+        <div class="bg-gray-300 flex justify-between items-center p-1 lg:p-3 gap-1">
+            <!-- logo -->
+            <div class="flex items-center lg:gap-1 hover:cursor-pointer">
+                <img class="w-4 lg:w-8" src="images/Logo.png" alt="">
+                <p class="text-base lg:text-2xl font-medium text-[#272343]">Comforty</p>
+            </div>
+
+            <!-- search -->
+            <div class="flex items-center">
+                <input class="rounded-s-md text-xs lg:text-base px-2 lg:px-3 lg:py-1" type="text"
+                    placeholder="Search here...">
+                <button class="bg-white px-1 lg:px-3 lg:py-1 text-xs lg:text-base rounded-e-md"><i
+                        class="fa-solid fa-magnifying-glass text-[#272343]"></i></button>
+            </div>
+
+            <div class="flex justify-between items-center gap-1 text-xs lg:text-base lg:gap-2">
+                <!-- cart -->
+                <div class="flex lg:gap-2 items-center bg-white px-1 lg:px-3 py-1 lg:py-1 rounded-md">
+                    <i class="fa-solid fa-cart-shopping text-[#272343] font-medium lg:text-md"></i>
+                    <p class="text-[#272343] font-medium lg:text-md">cart </p>
+                    <p class="bg-[#007580] rounded-full px-1 lg:px-2 text-white  lg:text-md">2</p>
+                </div>
+
+                <div class="bg-white px-1 lg:px-3 py-1 lg:py-1 rounded-md hover:cursor-pointer hover:bg-red-400">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="bg-white px-1 lg:px-3 py-1 lg:py-1 rounded-md hover:cursor-pointer">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- bottom bar -->
+        <div class="flex lg:m-2 justify-between items-center gap-2 text-xs">
+            <div class="flex gap-1 lg:gap-2 items-center">
+                <div class="border-solid border-2 border-[#E1E3E5] rounded-md hover:cursor-pointer">
+                    <p class="text-[#272343] text-xs lg:text-xl lg:font-medium lg:p-3"><i class="fa-solid fa-bars"></i>
+                        All Categories</p>
+                </div>
+
+                <div>
+                    <ul class="flex gap-1 lg:gap-4 text-sm lg:text-base lg:font-medium text-[#636270]">
+                        <li><a href="#" class=" hover:text-[#007580]">Home</a></li>
+                        <li><a href="#" class=" hover:text-[#007580]">Shop</a></li>
+                        <li><a href="#" class=" hover:text-[#007580]">Product</a></li>
+                        <li><a href="#" class=" hover:text-[#007580]">Pages</a></li>
+                        <li><a href="#" class=" hover:text-[#007580]">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <p class="text-[#63627099] text-xs lg:text-sm ">Contact: <span
+                        class="text-[#272343] lg:font-medium">(808) 555-0111</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------
+        Banner Section
+    -------------------->
+    <section>
+        <div class="relative bg-[#F0F2F3] min-h-[500px] flex flex-col lg:flex-row items-center pb-4">
+            <div class="">
+                <img src="images/BG Shapes.png" class="lg:absolute lg:top-0 lg:right-28 lg:w-[450px]" alt="">
+                <img src="images/chair-1.png" class="absolute top-4 lg:top-16 right-28 lg:right-48 w-1/2 lg:w-64"
+                    alt="">
+                <div class="bg-white rounded-full absolute p-4 top-5 lg:top-12 right-24 lg:right-40">
+                    <p class="text-[#F05C52] text-xl lg:text-2xl font-semibold leading-5">54% <br> <span
+                            class="text-[#272343] text-base font-medium">Discount</span></p>
+                </div>
+            </div>
+            <div class="lg:px-24 text-center lg:text-left">
+                <p class="text-[#272343] text-base">Welcome to chairy</p>
+                <p class="text-[#272343] text-5xl font-bold">Best Furniture <br> Collection for your <br> interior.</p>
+                <br>
+                <button class="text-white bg-[#029FAE] font-semibold p-4 rounded-lg">Shop Now &nbsp; &nbsp;<i
+                        class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <!-- features cart -->
+            <div
+                class="flex flex-col lg:flex-row mt-4 gap-4 bg-white shadow-lg shadow-[#edeff1] p-4 rounded-lg lg:absolute lg:-bottom-10 lg:left-24">
+                <div class="flex gap-4">
+                    <img src="images/box.png" alt="">
+                    <p class="text-[#272343] text-lg">Discount <br> <span class="text-[#9A9CAA]">Every week new
+                            sales</span></p>
+                </div>
+                <div class="flex gap-4">
+                    <img src="images/delivery-truck.png" alt="">
+                    <p class="text-[#272343] text-lg">Free Delivery <br> <span class="text-[#9A9CAA]">100% Free for all
+                            orders</span></p>
+                </div>
+                <div class="flex gap-4">
+                    <img src="images/24-hours.png" alt="">
+                    <p class="text-[#272343] text-lg">Great Support 24/7 <br> <span class="text-[#9A9CAA]">We care your
+                            experiences</span></p>
+                </div>
+                <div class="flex gap-4">
+                    <img src="images/shield.png" alt="">
+                    <p class="text-[#272343] text-lg">Secure Payment<br> <span class="text-[#9A9CAA]">100% Secure
+                            Payment Method</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Logo -->
+    <section class="mt-20">
+        <div class="flex flex-wrap gap-4 justify-around items-center mx-8">
+            <div>
+                <img src="images/zapier.png" alt="">
+            </div>
+            <div>
+                <img src="images/pipedrive.png" alt="">
+            </div>
+            <div>
+                <img src="images/cib_bank.png" alt="">
+            </div>
+            <div>
+                <img src="images/Logo2.png" alt="">
+            </div>
+            <div>
+                <img src="images/burn_toast.png" alt="">
+            </div>
+            <div>
+                <img src="images/PandaDoc.png" alt="">
+            </div>
+            <div>
+                <img src="images/moz.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="mt-16 lg:mx-16">
+        <!-- Featured Button -->
+        <div class="flex items-center justify-between px-4">
+            <div>
+                <p class="text-[#272343] font-semibold text-xl lg:text-3xl">Featured Products</p>
+            </div>
+            <div>
+                <i
+                    class="fa-solid fa-arrow-left p-4 text-xl lg:text-3xl bg-[#F0F2F3] rounded-full hover:text-white hover:cursor-pointer hover:bg-[#007580] mx-5"></i>
+                <i
+                    class="fa-solid fa-arrow-right p-4 text-xl lg:text-3xl bg-[#F0F2F3] rounded-full hover:text-white hover:cursor-pointer hover:bg-[#007580]"></i>
+            </div>
+        </div>
+
+        <!-- Featured Cart -->
+        <div class="mt-11 mb-40 flex gap-4 flex-col lg:flex-row justify-between items-center">
+            <div class="relative leading-8">
+                <img src="images/cart-chair1.png" class="relative" alt="">
+                <p class="bg-[#01AD5A] text-white font-medium rounded-lg absolute px-3 py-2 top-3 left-3">New</p>
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative leading-8">
+                <img src="images/cart-chair2.png" class="relative" alt="">
+                <p class="bg-[#F5813F] text-white font-medium rounded-lg absolute px-3 py-2 top-3 left-3">Sales</p>
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20 <del class="text-[#9A9CAA]">$39</del> </p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative leading-8">
+                <img src="images/cart-chair3.png" class="relative" alt="">
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative leading-8">
+                <img src="images/cart-chair4.png" class="relative" alt="">
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Categories Section -->
+    <section class="mt-12 mx-4 lg:mx-16">
+        <div class="flex items-center justify-between ">
+            <div>
+                <p class="text-[#272343] font-semibold text-xl lg:text-3xl">Top categories</p>
+            </div>
+            <div>
+                <i
+                    class="fa-solid fa-arrow-left p-4 text-xl lg:text-3xl bg-[#F0F2F3] rounded-full hover:text-white hover:cursor-pointer hover:bg-[#007580] mx-5"></i>
+                <i
+                    class="fa-solid fa-arrow-right p-4 text-xl lg:text-3xl bg-[#F0F2F3] rounded-full hover:text-white hover:cursor-pointer hover:bg-[#007580]"></i>
+            </div>
+        </div>
+
+        <!-- top categories cart -->
+        <div class="flex gap-1 lg:gap-4 flex-col lg:flex-row mt-8">
+            <div class="relative mb-40 flex flex-col">
+                <img src="images/cart-chair5.png" alt="">
+                <div class="bg-[#000000b3] absolute bottom-0 w-full p-4 rounded-b-lg">
+                    <p class="text-white text-xl font-semibold">Wing Chair</p>
+                    <p class="text-[#ffffffb5] text-lg">3,584 Products</p>
+                </div>
+            </div>
+            <div class="relative mb-40 flex flex-col">
+                <img src="images/cart-chair6.png" alt="">
+                <div class="bg-[#000000b3] absolute bottom-0 w-full p-4 rounded-b-lg">
+                    <p class="text-white text-xl font-semibold">Wooden Chair</p>
+                    <p class="text-[#ffffffb5] text-lg">157 Products</p>
+                </div>
+            </div>
+            <div class="relative mb-40 flex flex-col">
+                <img src="images/cart-chair7.png" alt="">
+                <div class="bg-[#000000b3] absolute bottom-0 w-full p-4 rounded-b-lg">
+                    <p class="text-white text-xl font-semibold">Desk Chair</p>
+                    <p class="text-[#ffffffb5] text-lg">154 Products</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Products Section -->
+    <section class="mb-40 lg:mx-16">
+        <div class="text-center">
+            <p class="font-semibold text-xl lg:text-3xl text-[#272343]">Our Products</p>
+            <div class="flex gap-2 p-4 justify-center uppercase text-sm">
+                <a class="lg:p-2 lg:px-4 group text-[#9A9CAA] font-medium hover:text-black" href="#">
+                    All
+                    <div class="bg-[#038053] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                </a>
+                <a class="lg:p-2 lg:px-4 group text-[#9A9CAA] font-medium hover:text-black" href="#">
+                    Newest
+                    <div class="bg-[#038053] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                </a>
+                <a class="lg:p-2 lg:px-4 group text-[#9A9CAA] font-medium hover:text-black" href="#">
+                    Trending
+                    <div class="bg-[#038053] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                </a>
+                <a class="lg:p-2 lg:px-4 group text-[#9A9CAA] font-medium hover:text-black" href="#">
+                    Best Sellers
+                    <div class="bg-[#038053] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                </a>
+                <a class="lg:p-2 lg:px-4 group text-[#9A9CAA] font-medium hover:text-black" href="#">
+                    Featured
+                    <div class="bg-[#038053] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                </a>
+            </div>
+        </div>
+
+        <div class="mt-11 mb-40 flex gap-4 flex-col lg:flex-row justify-between items-center">
+            <div class="relative leading-8">
+                <img src="images/cart-chair1.png" class="relative" alt="">
+                <p class="bg-[#01AD5A] text-white font-medium rounded-lg absolute px-3 py-2 top-3 left-3">New</p>
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative leading-8">
+                <img src="images/cart-chair2.png" class="relative" alt="">
+                <p class="bg-[#F5813F] text-white font-medium rounded-lg absolute px-3 py-2 top-3 left-3">Sales</p>
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20 <del class="text-[#9A9CAA]">$39</del> </p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative leading-8">
+                <img src="images/cart-chair3.png" class="relative" alt="">
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative leading-8">
+                <img src="images/cart-chair4.png" class="relative" alt="">
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex gap-4 flex-col lg:flex-row justify-between items-center">
+            <div class="relative leading-8">
+                <img src="images/cart-chair51.png" class="relative" alt="">
+                <p class="bg-[#01AD5A] text-white font-medium rounded-lg absolute px-3 py-2 top-3 left-3">New</p>
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative leading-8">
+                <img src="images/cart-chair52.png" class="relative" alt="">
+                <p class="bg-[#F5813F] text-white font-medium rounded-lg absolute px-3 py-2 top-3 left-3">Sales</p>
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20 <del class="text-[#9A9CAA]">$39</del> </p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative leading-8">
+                <img src="images/cart-chair53.png" class="relative" alt="">
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative leading-8">
+                <img src="images/cart-chair54.png" class="relative" alt="">
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="bg-[#edeff0] pt-8 pb-8">
+        <div class="flex items-center justify-between m-4 lg:mx-16">
+            <div>
+                <p class="text-[#272343] font-semibold text-lg lg:text-3xl">What client says about us</p>
+            </div>
+            <div>
+                <i
+                    class="fa-solid fa-arrow-left p-4 text-lg lg:text-3xl bg-[#fff] rounded-full hover:text-white hover:cursor-pointer hover:bg-[#007580] mx-5"></i>
+                <i
+                    class="fa-solid fa-arrow-right p-4 text-lg lg:text-3xl bg-[#fff] rounded-full hover:text-white hover:cursor-pointer hover:bg-[#007580]"></i>
+            </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-center m-4 lg:m-16 gap-8">
+            <div class="p-2 lg:p-8 rounded-lg bg-white">
+                <div class="flex items-center gap-4">
+                    <div class="h-40 border-s-4 border-solid border-[#029FAE]"></div>
+                    <p class="text-xl text-[#636270]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        sit amet mi nec massa tincidunt blandit et eu sem. Maecenas laoreet ultrices diam dignissim
+                        posuere. Aenean ultrices dui at ipsum sagittis, pharetra lacinia dui faucibus. In ac bibendum
+                        ex. Aenean dolor massa, euismod sit amet suscipit et“
+                    </p>
+                </div>
+
+                <div class="flex items-center mt-4">
+                    <div class="flex items-center gap-4">
+                        <img src="images/client.png" class="w-1/5 rounded-full border bg-gray-100" alt="">
+                        <p class="text-xl text-[#272343] font-medium">Abdul Malek <br> <span
+                                class="text-[#9A9CAA] font-normal text-lg">Fashion Designer</span></p>
+                    </div>
+                    <div>
+                        <p><i class="fa-solid fa-quote-right text-4xl lg:text-9xl text-[#f0f2f3]"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2 lg:p-8 rounded-lg bg-white">
+                <div class="flex items-center gap-4">
+                    <div class="h-40 border-s-4 border-solid border-[#029FAE]"></div>
+                    <p class="text-xl text-[#636270]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        sit
+                        amet mi nec massa tincidunt blandit et eu sem. Maecenas laoreet ultrices diam dignissim posuere.
+                        Aenean ultrices dui at ipsum sagittis, pharetra lacinia dui faucibus. In ac bibendum ex. Aenean
+                        dolor massa, euismod sit amet suscipit et“
+                    </p>
+                </div>
+
+                <div class="flex items-center mt-4">
+                    <div class="flex items-center gap-4">
+                        <img src="images/client.png" class="w-1/5 rounded-full border bg-gray-100" alt="">
+                        <p class="text-xl text-[#272343] font-medium">Mahbub Alom<br> <span
+                                class="text-[#9A9CAA] font-normal text-lg">Fashion Designer</span></p>
+                    </div>
+                    <div>
+                        <p><i class="fa-solid fa-quote-right text-4xl lg:text-9xl text-[#f0f2f3]"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recently Added Section -->
+    <section class="mt-16 lg:mx-16">
+        <div class="flex items-center justify-between px-4">
+            <div>
+                <p class="text-[#272343] font-semibold text-xl lg:text-3xl">Recently Added</p>
+            </div>
+            <div>
+                <i
+                    class="fa-solid fa-arrow-left p-4 text-xl lg:text-3xl bg-[#F0F2F3] rounded-full hover:text-white hover:cursor-pointer hover:bg-[#007580] mx-5"></i>
+                <i
+                    class="fa-solid fa-arrow-right p-4 text-xl lg:text-3xl bg-[#F0F2F3] rounded-full hover:text-white hover:cursor-pointer hover:bg-[#007580]"></i>
+            </div>
+        </div>
+
+        <div class="mt-11 flex gap-4 flex-col lg:flex-row justify-between items-center">
+            <div class="relative leading-8">
+                <img src="images/cart-chair1.png" class="relative" alt="">
+                <p class="bg-[#01AD5A] text-white font-medium rounded-lg absolute px-3 py-2 top-3 left-3">New</p>
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative leading-8">
+                <img src="images/cart-chair2.png" class="relative" alt="">
+                <p class="bg-[#F5813F] text-white font-medium rounded-lg absolute px-3 py-2 top-3 left-3">Sales</p>
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20 <del class="text-[#9A9CAA]">$39</del> </p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative leading-8">
+                <img src="images/cart-chair3.png" class="relative" alt="">
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative leading-8">
+                <img src="images/cart-chair4.png" class="relative" alt="">
+                <p class="bg-[#f7f9f8] font-medium rounded-lg absolute px-4 py-2 top-3 right-3 cursor-pointer"><i
+                        class="fa-regular fa-heart"></i></p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-[#007580] ">Library Stool Chair</p>
+                        <p class="font-semibold text-[#272343] text-xl">$20</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i
+                                class="fa-solid fa-cart-shopping text-white bg-[#029FAE] p-4 rounded-lg cursor-pointer"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <hr class="mt-11">
+    <section class="mt-11 flex flex-col gap-8 lg:gap-0 lg:flex-row justify-between mx-8">
+        <div class="flex flex-col gap-8">
+            <div class="flex items-center lg:gap-1 hover:cursor-pointer">
+                <img class="w-4 lg:w-8" src="images/Logo.png" alt="">
+                <p class="text-base lg:text-2xl font-medium text-[#272343]">Comforty</p>
+            </div>
+            <p class="text-[#9A9CAA] text-xl">Vivamus tristique odio sit amet velit semper, <br> eu posuere turpis
+                interdum. <br> Cras egestas purus </p>
+            <div>
+                <ul class="flex gap-6 items-center text-[#636270] text-4xl">
+                    <li><a href="#"><i
+                                class="fa-brands fa-facebook hover:text-[#007580] hover:text-5xl hover:border hover:border-solid hover:border-[#007580] hover:p-2 hover:rounded-full ease-in-out duration-300 hover:scale-110"></i></a>
+                    </li>
+                    <li><a href="#"><i
+                                class="fa-brands fa-twitter hover:text-[#007580] hover:text-5xl hover:border hover:border-solid hover:border-[#007580] hover:p-2 hover:rounded-full ease-in-out duration-300 hover:scale-110"></i></a>
+                    </li>
+                    <li><a href="#"><i
+                                class="fa-brands fa-instagram hover:text-[#007580] hover:text-5xl hover:border hover:border-solid hover:border-[#007580] hover:p-2 hover:rounded-full ease-in-out duration-300 hover:scale-110"></i></a>
+                    </li>
+                    <li><a href="#"><i
+                                class="fa-brands fa-youtube hover:text-[#007580] hover:text-5xl hover:border hover:border-solid hover:border-[#007580] hover:p-2 hover:rounded-full ease-in-out duration-300 hover:scale-110"></i></a>
+                    </li>
+                    <li><a href="#"><i
+                                class="fa-brands fa-pinterest hover:text-[#007580] hover:text-5xl hover:border hover:border-solid hover:border-[#007580] hover:p-2 hover:rounded-full ease-in-out duration-300 hover:scale-110"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <div class="flex flex-col uppercase text-sm">
+                <p class="mx-4 pb-4 text-[#9A9CAA] text-xl font-medium">Category</p>
+                <ul class="flex flex-col mx-0">
+                    <li>
+                        <a class="lg:p-2 lg:px-4 group text-[#000] font-medium hover:text-[#007580]" href="#">
+                            Sofa
+                            <div class="bg-[#007580] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="lg:p-2 lg:px-4 group text-[#000] font-medium hover:text-[#007580]" href="#">
+                            Armchair
+                            <div class="bg-[#007580] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="lg:p-2 lg:px-4 group text-[#000] font-medium hover:text-[#007580]" href="#">
+                            Wing Chair
+                            <div class="bg-[#007580] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="lg:p-2 lg:px-4 group text-[#000] font-medium hover:text-[#007580]" href="#">
+                            Desk Chair
+                            <div class="bg-[#007580] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="lg:p-2 lg:px-4 group text-[#000] font-medium hover:text-[#007580]" href="#">
+                            Wooden Chair
+                            <div class="bg-[#007580] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="lg:p-2 lg:px-4 group text-[#000] font-medium hover:text-[#007580]" href="#">
+                            Park Bench
+                            <div class="bg-[#007580] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="flex flex-col uppercase text-sm">
+                <p class="mx-4 pb-4 text-[#9A9CAA] text-xl font-medium">Support</p>
+                <ul class="flex flex-col mx-0">
+                    <li>
+                        <a class="lg:p-2 lg:px-4 group text-[#000] font-medium hover:text-[#007580]" href="#">
+                            Help & Support
+                            <div class="bg-[#007580] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="lg:p-2 lg:px-4 group text-[#000] font-medium hover:text-[#007580]" href="#">
+                            Terms & Conditions
+                            <div class="bg-[#007580] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="lg:p-2 lg:px-4 group text-[#000] font-medium hover:text-[#007580]" href="#">
+                            Privacy Policy
+                            <div class="bg-[#007580] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="lg:p-2 lg:px-4 group text-[#000] font-medium hover:text-[#007580]" href="#">
+                            Help
+                            <div class="bg-[#007580] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex flex-col gap-8">
+            <p class="uppercase text-[#9A9CAA] font-medium text-xl">Newsletter</p>
+            <div class="flex items-center gap-2">
+                <input class="border border-solid border-gray-400 p-3 rounded-lg" type="text" placeholder="Your email">
+                <button class="bg-[#029FAE] px-4 py-3 rounded-lg text-white">Subscribe</button>
+            </div>
+            <p class="text-[#9A9CAA]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Nullam tincidunt
+                erat enim.</p>
+        </div>
+    </section>
+    <hr class="mt-8">
+
+    <section class="mt-4">
+        <div class="flex justify-between items-center lg:p-4 mx-2 lg:mx-8">
+            <div>
+                <p class="text-[#9A9CAA] text-xs">@ 2024 - Blogy - Developed by <i
+                        class="text-black font-medium">Salauddin Sakib</i></p>
+            </div>
+            <div class=" lg:text-6xl text-gray-500">
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+                <i class="fa-brands fa-cc-visa"></i>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
